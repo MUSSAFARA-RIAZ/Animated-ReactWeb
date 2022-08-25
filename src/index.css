@@ -15,4 +15,14 @@ a{
   font-family: 'Crimson Pro', serif;
   font-family: 'Changa', sans-serif;
   font-size: 20px;
+  padding: 10px;
+  color: rgb(128, 128, 209);
+  
+}
+
+.nav_bg {
+  background-color: rgb(53, 43, 43);
+}
+.logo{
+  color: rebeccapurple;
 }

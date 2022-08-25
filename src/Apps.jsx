@@ -1,30 +1,27 @@
-import React from 'react';
+import React from 'react'
 
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
-import About from './Components/About';
-import Contact from './Components/Contact';
-import Home from './Components/Home';
-import Menu from './Components/Menu';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import About from './Components/About'
+import Contact from './Components/Contact'
+import Home from './Components/Home'
+import Navbar from './Components/Navbar'
 
-import Services from './Components/Services';
-import './index.css';
-import './Menu.css';
+import Services from './Components/Services'
+import './index.css'
 
 export default function Apps() {
   return (
     <>
-   
-    <Menu/>
-    <BrowserRouter>
-    <Routes>
+      <Router>
+        <Navbar />
 
-    <Route  exact path='/' element={<Home/>} />
-    <Route exact path='/about' element={<About/>}/>
-    <Route exact path='/contact' element={<Contact/>}/>
-    <Route exact path='/services' element={<Services/>}/>
-
-    </Routes>
-    </BrowserRouter>
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/about" exact element={<About />} />
+          <Route path="/contact" exact element={<Contact />} />
+          <Route path="/services" exact element={<Services />} />
+        </Routes>
+      </Router>
     </>
   )
 }

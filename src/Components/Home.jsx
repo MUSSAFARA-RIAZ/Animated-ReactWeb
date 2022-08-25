@@ -1,9 +1,10 @@
 import React from 'react'
+import Common from './Common'
 
 export default function Home() {
   return (
     <div>
-        <h1>This is home Page</h1>
+        <Common head="Mussfara" text="Hello"/>
       
     </div>
   )
