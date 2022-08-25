@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Common from './Common';
 
 export default function About() {
   return (
