@@ -16,7 +16,7 @@ export default function Services() {
     <>
        <div className='container-fluid'>
         <div className='row'>
-            <div className='col-4 mx-auto  py-auto'>
+            <div className='service_comp'>
             {data.map(func)}
       </div>
       </div>

@@ -112,3 +112,18 @@ button{
     transform: translate(-10px);
   }
 }
+.service_comp{
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 30px;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.card{
+  width: 100%;
+  max-width: 300px;
+}
+#card-img{
+  width: 100%;
+  max-width: 498px;
+}
